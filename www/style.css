@@ -9,9 +9,7 @@ body {
 }
 
 header {
-    background-image: url(../assets/header.jpeg);
-    background-repeat: none;
-    object-fit: cover;
+    background-image: url(https://storage.googleapis.com/web-profile-lia/header.jpeg);
     color:beige;
     height: 100px;
 }

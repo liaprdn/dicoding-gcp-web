@@ -1,4 +1,10 @@
-runtime: custom
+runtime: python39
 
-static_files:
-    - styles
+handlers:
+    - url: /
+      static_files: www/index.html
+      upload: www/index.html
+
+    - url: /(.*)
+      static_files: www/\1
+      upload: www/(.*)
