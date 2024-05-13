@@ -1,0 +1,4 @@
+runtime: custom
+
+static_files:
+    - styles

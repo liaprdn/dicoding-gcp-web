@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../assets/header.jpeg);
+    background-repeat: none;
+    object-fit: cover;
+    color:beige;
+    height: 100px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 23pt;
+}
+
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    justify-content: center;
+}
+
+.centered {
+    text-align: center; 
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.card-row {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.card-img { 
+    padding: 20px;
+    text-align: center;
+}
+
+.img-default {
+    max-height: 200px;
+}
+
